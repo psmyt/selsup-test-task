@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.concurrent.*;
 
 public class CrptApi {
-    private final URI uri = URI.create("https://bnk-wiremock.tusvc.t-global.bcs/tesssttt");
+    private final URI uri = URI.create("https://ismp.crpt.ru/api/v3/lk/documents/create");
     private final ObjectMapper objectMapper = new ObjectMapper()
             .registerModule(new JavaTimeModule())
             .setDateFormat(new SimpleDateFormat("yyyy-MM-dd"));
